@@ -30,7 +30,7 @@ Note that the bot is still in development, so many features are still being adde
 > future (once the bot is public) to disable certain
 > command categories locally.
 
-###Planned features
+### Planned features
 **Will be updated once more significant stuff is in development.**
 
 ### Packages
