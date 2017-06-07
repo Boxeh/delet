@@ -31,7 +31,7 @@ Note that the bot is still in development, so many features are still being adde
 > command categories locally.
 
 ### Planned features
-**Will be updated once more significant stuff is in development.**
+Will be updated once the development of more significant stuff begins.
 
 ### Packages
 
