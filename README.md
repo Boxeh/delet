@@ -5,7 +5,7 @@ Documentation and readme info regarding the Delet bot for Discord.
 
 [![N|Solid](https://vgy.me/GaLwEg.png)](https://vgy.me/43As1f.png)
 
-delet is a multipurpose bot with planned features including (but not limited to) moderation, music, webhooking and fun commands to play around with.e
+delet is a multipurpose bot with in-development features including (but not limited to) moderation, music, webhooking and fun commands to play around with.
 
 Key notes:
 
