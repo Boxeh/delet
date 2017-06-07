@@ -38,7 +38,7 @@ Packages currently used in 'delet' include:
 * [Node-Opus](https://www.npmjs.com/package/node-opus)
 * [Request promise](https://www.npmjs.com/package/request-promise)
 * [Erlpack](https://www.npmjs.com/package/erlpack)
-* [Node.js]
+* [Node.js](https://nodejs.org/en/)
 * [yt-dl-core](https://github.com/fent/node-ytdl-core)
 * [OpusScript](https://www.npmjs.com/package/opusscript)
 * [return-deep-diff](https://www.npmjs.com/package/return-deep-diff)
