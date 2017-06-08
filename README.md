@@ -13,7 +13,7 @@ Key notes:
   - Coded in JavaScript.
   - Uses the Discord.js library (https://discord.js.org/, https://github.com/hydrabolt/discord.js/)
 
-# Unique features
+### Unique features
 Similar to many moderation bots, this bot does have the typical `ban`, `kick` and `purge` commands, but it also has quite a few useful commands. These include:
 
   - Lockdown: locks a channel by preventing users from sending messages in it by *automagically* changing the channel overrides appropriately. The lockdown can be released at any time, and its time of expiry can be set in seconds, hours, or minutes.
