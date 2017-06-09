@@ -1,7 +1,6 @@
-# delet-docs
-Documentation and readme info regarding the Delet bot for Discord.
-
 # 'delet' bot for Discord
+### delet-docs
+Documentation and readme info regarding the Delet bot for Discord.
 
 [![N|Solid](https://vgy.me/GaLwEg.png)](https://vgy.me/43As1f.png)
 
