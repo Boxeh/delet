@@ -49,6 +49,8 @@ Packages currently used in 'delet' include:
 
 and a few other useful packages.
 
+**Full `package.json` file can now be found [here](https://github.com/Boxeh/delet-docs/blob/master/package.json)!**
+
 ### License
 *Subject to change. Can also be found in the appropriately named `License` file.*
 **MIT**
