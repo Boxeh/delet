@@ -1,6 +1,6 @@
 {
     "ownerid": "203604445051748353",
-    //admin and mod role IDs are server-specific
+    "_comment": "mod and admin role IDs are server-specific.",
     "modroleid": "MOD-ROLE-ID",
     "adminroleid": "ADMIN-ROLE-ID",
     "prefix": "%",
