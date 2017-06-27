@@ -4,13 +4,14 @@ Documentation and readme info regarding the Delet bot for Discord.
 
 [![N|Solid](https://vgy.me/GaLwEg.png)](https://vgy.me/43As1f.png)
 
-delet is a multipurpose bot with in-development features including (but not limited to) moderation, music, webhooking and fun commands to play around with.
+delet is an open-source, multipurpose bot with in-development features including (but not limited to) moderation, music, webhooking and fun commands to play around with.
 
 Key notes:
 
-  - The bot is currently private to one guild and cannot be added to any other guilds.
+  - The bot is currently private to one guild and cannot be added to any other guilds. Self-hosting this bot is NOT currently supported, and therefore will not work, due to the way some parts are coded to be specific to one guild.
   - Coded in JavaScript.
   - Uses the Discord.js library (https://discord.js.org/, https://github.com/hydrabolt/discord.js/)
+  - Once the bot is more or less done, it will be hosted on a VPS server, and will be functional in multiple guilds.
 
 ### Unique features
 Similar to many moderation bots, this bot does have the typical `ban`, `kick` and `purge` commands, but it also has quite a few useful commands. These include:
