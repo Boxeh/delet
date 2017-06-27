@@ -17,6 +17,6 @@ exports.conf = {
 
 exports.help = {
     name: "tokens",
-    description: "Returns your amount of tokens on the HiveMC Network.",
+    description: "Returns your amount of tokens on the HiveMC Network. Your Discord username must match your IGN for this to work.",
     usage: "tokens"
 };
