@@ -1,0 +1,8 @@
+{
+    "ownerid": "203604445051748353",
+    //admin and mod role IDs are server-specific
+    "modroleid": "MOD-ROLE-ID",
+    "adminroleid": "ADMIN-ROLE-ID",
+    "prefix": "%",
+    "token": "TOKEN-REDACTED"
+}
