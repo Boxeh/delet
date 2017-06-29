@@ -10,4 +10,5 @@ module.exports = client => {
     client.on('guildBanAdd', reqEvent('guildBanAdd'));
     client.on('guildBanRemove', reqEvent('guildBanRemove'));
     client.on('channelPinsUpdate', reqEvent('channelPinsUpdate'));
+    client.on('messageReactionAdd', reqEvent('messageReactionAdd'));
 };
