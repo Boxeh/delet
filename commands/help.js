@@ -25,5 +25,5 @@ exports.conf = {
 exports.help = {
     name: 'help',
     description: 'Displays all the commands available for your permission level.',
-    usage: 'help [command]'
+    usage: 'help | help [command]'
 };
