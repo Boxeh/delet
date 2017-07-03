@@ -62,22 +62,23 @@ bot.on("message", function(message) {
             break;
             
         case "help":
-            message.author.sendCode('fix', `= Music Command List =\n\n%play :: Plays/queues audio from a specified link.\n%skip :: Skips the current track.\n%stop :: ABORT ABORT ABORT`)
-
+            if (message.content.startsWith(PREFIX + "help ")) message.author.send("Help has arrived! :checkered_flag:")
+            if (message.content === (PREFIX + "help")) message.author.send(`= Music Command List =\n\n%play :: Plays/queues audio from a specified link.\n%skip :: Skips the current track.\n%stop :: ABORT ABORT ABORT`, {code: 'fix'});
             break;
         // default:
         //     message.channel.send("Invalid command.");
     }
+    
 });
 
-const commands = {
-    'queue': (msg) => {
-		if (queue[msg.guild.id] === undefined) return msg.channel.send(`Add some songs to the queue first with ${tokens.prefix}add`);
-		let tosend = [];
-		queue[msg.guild.id].songs.forEach((song, i) => { tosend.push(`${i+1}. ${song.title} - Requested by: ${song.requester}`);});
-		msg.channel.send(`__**${msg.guild.name}'s Music Queue:**__ Currently **${tosend.length}** songs queued ${(tosend.length > 15 ? '*[Only next 15 shown]*' : '')}\n\`\`\`${tosend.slice(0,15).join('\n')}\`\`\``);
-	}
-};
+// const commands = {
+//     'queue': (msg) => {
+// 		if (queue[msg.guild.id] === undefined) return msg.channel.send(`Add some songs to the queue first with ${tokens.prefix}add`);
+// 		let tosend = [];
+// 		queue[msg.guild.id].songs.forEach((song, i) => { tosend.push(`${i+1}. ${song.title} - Requested by: ${song.requester}`);});
+// 		msg.channel.send(`__**${msg.guild.name}'s Music Queue:**__ Currently **${tosend.length}** songs queued ${(tosend.length > 15 ? '*[Only next 15 shown]*' : '')}\n\`\`\`${tosend.slice(0,15).join('\n')}\`\`\``);
+// 	}
+// };
 
 var regToken = /[\w\d]{24}\.[\w\d]{6}\.[\w\d-_]{27}/g;
 client.on('debug', e => {
