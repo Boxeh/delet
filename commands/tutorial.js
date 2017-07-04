@@ -55,7 +55,7 @@ exports.conf = {
     enabled: true,
     guildOnly: false,
     aliases: ['tuto', 'teachme'],
-    permLevel: 0
+    permLevel: 4
 };
 
 exports.help = {
