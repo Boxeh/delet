@@ -1,4 +1,4 @@
-# 'delet' bot for Discord
+# delet bot for Discord
 ### deletDocs
 Documentation and readme info regarding the Delet bot for Discord.
 
