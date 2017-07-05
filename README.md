@@ -53,4 +53,4 @@ and a few other useful packages.
 **Full `package.json` file can now be found [here](https://github.com/Boxeh/delet-docs/blob/master/package.json)!**
 
 ### License (MIT)
-*Subject to change. Can be found in the appropriately named `License` file.*
+*Subject to change. More information can be found in the appropriately named `License` file.*
