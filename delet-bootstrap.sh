@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Install Node.js and NPM from latest.
 # From nodesource (Chris Lea PPA) as Ubuntu packaging is somewhat behind.
@@ -10,7 +10,7 @@ sudo npm install --global nodemon
 sudo npm install --save nodemon
 
 # Source home directory.
-home='/home/Discord'
+home='/home/Discord/delet'
 
 # NPM build stuff.
 mkdir $home/node_modules
