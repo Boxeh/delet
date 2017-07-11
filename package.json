@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "DeletDev",
+  "author": "Boxeh",
   "license": "MIT",
   "dependencies": {
     "async": "^2.5.0",
@@ -22,6 +22,7 @@
     "ms": "^2.0.0",
     "node-opus": "^0.2.6",
     "opusscript": "0.0.3",
+    "pm2": "^2.5.0",
     "prime-number-search": "^0.6.0",
     "primes": "0.0.1",
     "request": "^2.81.0",
