@@ -2,12 +2,12 @@
 
 # Install Node.js and NPM from latest.
 # From nodesource (Chris Lea PPA) as Ubuntu packaging is somewhat behind.
-sudo apt-get install python-software-properties
-curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+# https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions
+sudo curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
 
-# Install Nodemon globally and locally.
-sudo npm install --global nodemon
-sudo npm install --save nodemon
+# Install PM2 and Gulp globally.
+sudo npm install --global gulp-cli pm2
 
 # Source home directory.
 home='/home/Discord/delet'
