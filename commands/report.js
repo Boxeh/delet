@@ -9,7 +9,7 @@ exports.run = (client, message, args) => {
     if (!modlog) return message.reply('I cannot find a mod-log channel!')
     if (reason.length < 1) return message.reply('you must supply a reason for the report.');
     if (message.mentions.users.size < 1) return message.reply('you must mention a user to report.').catch(console.error);
-    message.channel.send({embed: {
+    client.channels.get(modlog.id).send({embed: {
     color: 3447003,
     author: {
       //name: `Report received from ${message.author.tag} (${message.author.id})`,
