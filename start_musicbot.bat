@@ -1,2 +1,2 @@
-node music.js
+nodemon music.js
 PAUSE
