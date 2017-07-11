@@ -19,4 +19,4 @@ ln -s $home/node_modules/ $home/bot/node_modules
 npm install
 
 # Daemonises an instance.
-nodemon $home/bot/bin/app.js
+pm2 start $home/bot/bin/app.js
