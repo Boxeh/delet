@@ -12,17 +12,17 @@ exports.run = (client, message, args) => {
     client.channels.get(modlog.id).send({embed: {
     color: 3447003,
     author: {
-      //name: `Report received from ${message.author.tag} (${message.author.id})`,
+      name: `🚩 Report received from ${message.author.tag} (${message.author.id})`,
       icon_url: message.author.avatarURL
     },
     //title: `Report received from ${message.author.tag} (${message.author.id})`,
     url: "",
-    description: "",
-    fields: [{
-        name: `🚩 Report received from ${message.author.tag} (${message.author.id})`,
-        value: `Target: ${user.username}#${user.discriminator} [ID: ${user.id}]\n\`\`\`${reason}\`\`\``
-      },
-    ],
+    description: `\`\`\`css\n@${user.username}#${user.discriminator} ${reason}\`\`\``,
+    // fields: [{
+    //     name: `🚩 Report received from ${message.author.tag} (${message.author.id})`,
+    //     value: `Target: ${user.username}#${user.discriminator} [ID: ${user.id}]\n\`\`\`${reason}\`\`\``
+    //   },
+    // ],
     timestamp: new Date(),
     footer: {
       icon_url: '',
