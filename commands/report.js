@@ -1,14 +1,14 @@
 const Discord = require('discord.js');
 const settings = require('../settings.json');
 exports.run = (client, message, args) => {
-    if (message.content === (settings.prefix + 'report ')) message.reply('thank you for your report!').then(msg => {msg.delete()});
-
     let reason = args.slice(1).join(' ');
     let user = message.mentions.users.first();
     let modlog = client.channels.find('name', 'delet-this');
-    if (!modlog) return message.reply('I cannot find a mod-log channel!')
-    if (reason.length < 1) return message.reply('you must supply a reason for the report.');
-    if (message.mentions.users.size < 1) return message.reply('you must mention a user to report.').catch(console.error);
+    if (!modlog) return message.channel.send('I cannot find a mod-log channel!')
+    if (message.mentions.users.size < 1) return message.channel.send('You must mention a user to report.').catch(console.error);
+    if (reason.length < 1) return message.channel.send('You must supply a reason for the report.');
+    if (message.content.startsWith (settings.prefix + 'report ')) message.delete()
+  
     client.channels.get(modlog.id).send({embed: {
     color: 3447003,
     author: {
@@ -31,6 +31,7 @@ exports.run = (client, message, args) => {
   }
 });
 };
+
 
 exports.conf = {
     enabled: true,
