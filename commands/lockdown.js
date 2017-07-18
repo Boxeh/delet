@@ -3,6 +3,10 @@ exports.run = (client, message, args) => {
     if (!client.lockit) client.lockit = [];
     let time = args.join(' ');
     let validUnlocks = ['release', 'unlock'];
+    let modRole = message.guild.roles.find('name', 'delet Mod');
+    if (!message.member.roles.has(modRole.id)) {
+        return message.reply('you have insufficient permissions to use this command.').catch(console.error);
+    }
     if (!time) return message.reply('you must set a duration for the lockdown in either hours, minutes or seconds.');
 
     if (validUnlocks.includes(time)) {
@@ -37,8 +41,8 @@ exports.run = (client, message, args) => {
 exports.conf = {
     enabled: true,
     guildOnly: true,
-    aliases: ['ld'],
-    permLevel: 2
+    aliases: ['ld', 'lock'],
+    permLevel: 0
 };
 
 exports.help = {
